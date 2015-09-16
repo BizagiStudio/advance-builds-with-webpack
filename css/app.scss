@@ -1,0 +1,13 @@
+body {
+	background: #666;
+	font-size: 12px;
+	font-family: Verdana;
+	color:#fff;
+}
+
+a{
+	color: #fff;
+	&:hover {
+		color: #ff00bb;
+	}
+}
