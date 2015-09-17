@@ -11,7 +11,7 @@ module.exports = {
 	},
 	output: {
 		path: path.resolve('build/'),
-		publicPath: '/public/assets/js',
+		publicPath: '/public/assets/',
 		filename: "[name].js"
 	},
 
@@ -36,6 +36,11 @@ module.exports = {
 				test: /\.scss$/,
 				exclude: /node_modules/,
 				loader: "style-loader!css-loader!autoprefixer-loader!sass-loader"
+			},
+			{
+				test: /\.(png|jpg|ttf|eot)$/,
+				exclude: /node_modules/,
+				loader: "url-loader?limit=100000"
 			}
 		]
 	},
