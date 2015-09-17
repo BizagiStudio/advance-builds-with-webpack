@@ -1,5 +1,7 @@
+var config = require('../loader/config.json');
 
 console.log("HOME LOADED!"); 
+console.log(config.app_load_message);
 
 var img = document.createElement('img');
 img.style.height = "100%";
