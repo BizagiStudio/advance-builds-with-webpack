@@ -29,6 +29,7 @@
     "strip-json-comments": "^1.0.4",
     "strip-loader": "^0.1.0",
     "style-loader": "^0.12.4",
+    "timestamp-webpack-plugin": "^0.2.3",
     "url-loader": "^0.5.6",
     "webpack": "^1.12.1",
     "webpack-dev-middleware": "^1.2.0"
@@ -36,6 +37,7 @@
   "dependencies": {
     "ejs": "^2.3.4",
     "express": "^4.13.3",
+    "jquery": "^2.1.4",
     "morgan": "^1.6.1"
   }
 }
